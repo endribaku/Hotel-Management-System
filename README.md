@@ -15,42 +15,42 @@ The Hotel that this software is purposefully built for is a luxury hotel that of
 ## User Levels
   1️⃣ Hotel Administrator (Owner/General Manager) <br/>
     
-    ✅ Manages overall hotel, casino, and gym operations. <br/>
-    ✅ Access to financial reports, employee management, and guest analytics. <br/>
-    ✅ Configures hotel policies, pricing, and facility access rules. <br/>
+    ✅ Manages overall hotel, casino, and gym operations. 
+    ✅ Access to financial reports, employee management, and guest analytics. 
+    ✅ Configures hotel policies, pricing, and facility access rules. 
   
   2️⃣ Receptionist / Front Desk Staff <br/>
    
-    ✅ Handles hotel room bookings, check-in/check-out, and payments. <br/>
-    ✅ Assists guests with gym memberships and casino access registration. <br/>
-    ✅ Provides guest information and manages loyalty programs. <br/>
+    ✅ Handles hotel room bookings, check-in/check-out, and payments. 
+    ✅ Assists guests with gym memberships and casino access registration. 
+    ✅ Provides guest information and manages loyalty programs. 
   
   3️⃣ Casino Manager <br/> 
    
-    ✅ Manages casino operations and game table reservations. <br/>
-    ✅ Monitors betting transactions and compliance with gambling regulations. <br/>
-    ✅ Coordinates casino staff (dealers, security) and promotional events. <br/> 
+    ✅ Manages casino operations and game table reservations. 
+    ✅ Monitors betting transactions and compliance with gambling regulations.
+    ✅ Coordinates casino staff (dealers, security) and promotional events. 
   
   4️⃣ Gym Manager / Trainer <br/>
     
-    ✅ Handles gym memberships, class schedules, and personal training sessions. <br/>
-    ✅ Tracks guest attendance and fitness plans. <br/>
-    ✅ Manages equipment maintenance and gym facilities. <br/>
+    ✅ Handles gym memberships, class schedules, and personal training sessions. 
+    ✅ Tracks guest attendance and fitness plans. 
+    ✅ Manages equipment maintenance and gym facilities. 
    
   5️⃣ Housekeeping & Maintenance Staff <br/>
     
-    ✅ Updates room and facility cleanliness status. <br/>
-    ✅ Reports issues in hotel rooms, casino areas, or gym facilities. <br/>
-    ✅ Coordinates maintenance tasks and repairs. <br/>
+    ✅ Updates room and facility cleanliness status. 
+    ✅ Reports issues in hotel rooms, casino areas, or gym facilities. 
+    ✅ Coordinates maintenance tasks and repairs. 
   
   6️⃣ Hotel Guests (Casino & Gym Access Included) <br/> 
     
-    ✅ Book hotel rooms, casino reservations, and gym memberships. <br/> 
-    ✅ Pay for hotel services, place room service requests, and manage accounts. <br/>
-    ✅ Participate in loyalty programs and VIP experiences. <br/>
+    ✅ Book hotel rooms, casino reservations, and gym memberships.
+    ✅ Pay for hotel services, place room service requests, and manage accounts. 
+    ✅ Participate in loyalty programs and VIP experiences. 
   
   7️⃣ Accountant / Finance Team <br/> 
     
-    ✅ Tracks revenue from hotel stays, casino bets, and gym subscriptions. <br/>
-    ✅ Manages payroll, expenses, and tax compliance. <br/>
-    ✅ Generates financial reports for business decisions. <br/>
+    ✅ Tracks revenue from hotel stays, casino bets, and gym subscriptions. 
+    ✅ Manages payroll, expenses, and tax compliance.
+    ✅ Generates financial reports for business decisions. 
