@@ -1,6 +1,6 @@
 # Functional Requirements Document
 ## Hotel Management System (HMS) with Casino & Gym Facilities
-
+This document outlines the **functional requirements** for the **Hotel Management System** including its core hotel features, casino integration, and gym management.  
 ### **Room Booking & Management**
 - **FR-01:** The system shall allow the receptionist to create, modify & cancel hotel room bookings.
 - **FR-02:** The system shall enable the receptionist to check guests in & out of their rooms.
