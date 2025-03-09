@@ -1,75 +1,66 @@
 # Functional Requirements Document
 ## Hotel Management System (HMS) with Casino & Gym Facilities
-This document outlines the **functional requirements** for the **Hotel Management System** including its core hotel features, casino integration, and gym management.  
+
+Version: 1.1
+
+This document outlines the **functional requirements** for the **Hotel Management System** including its core hotel features, casino integration, and gym management.
+
 ### **Room Booking & Management**
-- **FR-01:** The system shall allow the receptionist to create, modify & cancel hotel room bookings.
-- **FR-02:** The system shall enable the receptionist to check guests in & out of their rooms.
-- **FR-03:** The system shall enable the receptionist to assign available rooms to guests based on their reservations.
-- **FR-04:** The system shall allow hotel guests to book a hotel room online or in person.
-- **FR-05:** The system shall allow the hotel administrator to manage hotel room availability.
-- **FR-06:** The system shall allow the hotel administrator to manage pricing policies for rooms.
+- **FR-01:** The system shall allow guests to search, book, modify, and cancel hotel room reservations.
+- **FR-02:** The system shall allow receptionists to check in and check out guests.
+- **FR-03:** The system shall update room availability in real-time.
+- **FR-04:** The system shall send automated booking confirmations via email/SMS to guests.
+- **FR-05:** The system shall allow admins to set seasonal pricing for rooms.
+
 
 ### **Payments & Billing**
-- **FR-07:** The system shall enable the receptionist to generate invoices & process payments for hotel stays.
-- **FR-08:** The system shall allow the casino manager to track casino betting transactions & guest balances.
-- **FR-09:** The system shall enable the gym manager to charge guests for gym memberships & services.
-- **FR-10:** The system shall allow the accountant to generate consolidated financial reports for all facilities.
+- **FR-06:** The system shall accept multiple payment methods (credit/debit, cash, digital wallets).
+- **FR-07:** The system shall generate and provide automated invoices after checkout.
+- **FR-08:** The system shall calculate discounts for guests.
+- **FR-09:** The system may allow guests to view their bill details online before checkout.
 
-### **Security & Compliance**
-- **FR-11:** The system shall enable the receptionist to verify guest identities during check-in.
-- **FR-12:** The system shall enable the casino manager to verify age restrictions for casino access.
-- **FR-13:** The system shall allow the hotel administrator to enforce security policies across all services.
-- **FR-14:** The system shall allow the accountant to manage financial security.
-- **FR-15:** The system shall include fraud detection mechanisms for financial security.
 
-### **Casino Operations & Guest Access**
-- **FR-16:** The system shall enable the casino manager to manage casino reservations for guests.
-- **FR-17:** The system shall enable the casino manager to monitor digital betting transactions.
-- **FR-18:** The system shall allow hotel guests to participate in casino games if eligible.
+### **Guest Services (Including Casino & Gym as Services)**
+- **FR-10:** The system shall allow guests to request room service via the website or mobile app.
+- **FR-11:** The system shall allow guests to book transportation services through the hotel.
+- **FR-12:** The system shall allow guests to access the casino as part of hotel services (ID verification required).
+- **FR-13:** The system shall allow guests to use the gym as part of hotel services.
+- **FR-14:** The system shall add casino and gym charges to the guest’s final bill.
+- **FR-15:** The system may allow guests to book spa, massage, or wellness services.
+
+### **Staff Management**
+- **FR-16:** The system shall allow the hotel manager to schedule shifts for staff.
+- **FR-17:** The system shall allow admins to add, remove, and modify staff roles.
+- **FR-18:** The system may track staff work hours and performance.
 - **FR-19:** The system shall allow the hotel administrator to configure gambling policies & restrictions.
 
-### **Gym Facility Management**
-- **FR-20:** The system shall allow the gym manager to register and manage gym memberships.
-- **FR-21:** The system shall allow the gym manager to schedule workout sessions.
-- **FR-22:** The system shall allow the guest to book personal training sessions.
-- **FR-23:** The system shall allow the Hotel Administrator to configure gym pricing and membership rules.
 
-### **Guest Services & Room Service**
-- **FR-24:** The system shall allow hotel guests to place food orders via room service.
-- **FR-25:** The system shall enable receptionists to log and process guest housekeeping requests.
-- **FR-26:** The system shall allow hotel guests to book events through the hotel’s concierge services.
-- **FR-27:** The system shall allow hotel administrators to configure guest service policies.
+### **Security 6 Access Control**
+- **FR-20:** The system shall implement role-based access control (each user can only access relevant features).
+- **FR-21:** The system shall require users to log in with a secure authentication system.
+- **FR-22:** The system shall record all transactions and activities for auditing purposes.
 
-### **Staff & Workforce Management**
-- **FR-28:** The system shall allow hotel administrators to add, remove, and update staff roles.
-- **FR-29:** The system shall enable hotel administrators to manage shift schedules for front desk staff.
-- **FR-30:** The system shall allow casino managers to assign work shifts to casino employees.
-- **FR-31:** The system shall allow gym managers to track staff attendance.
 
-### **Financial Management & Reporting**
-- **FR-32:** The system shall allow accountants to generate revenue reports for the hotel, casino, and gym.
-- **FR-33:** The system shall allow hotel administrators to view overall financial performance metrics.
-- **FR-34:** The system shall enable accountants to calculate payroll and expenses.
-- **FR-35:** The system shall allow hotel administrators to configure tax compliance settings.
+### **Financial Reports & Accounting**
+- **FR-23:** The system shall allow the hotel manager to view revenue, expenses, and profit reports.
+- **FR-24:** The system shall track all financial transactions (rooms, services, restaurants, etc.).
+- **FR-25:** The system may generate monthly and annual financial reports.
+
 
 ### **Maintenance & Housekeeping**
-- **FR-36:** The system shall allow housekeeping staff to update room cleanliness status.
-- **FR-37:** The system shall allow maintenance staff to report and track repair requests.
-- **FR-38:** The system shall enable hotel administrators to manage facility upkeep schedules.
-- **FR-39:** The system shall allow receptionists to notify staff of urgent maintenance issues.
+- **FR-26:** The system shall allow housekeeping staff to update room cleaning status.
+- **FR-27:** The system shall notify staff about maintenance requests.
+- **FR-28:** The system shall track hotel inventory, including room supplies, cleaning materials, and amenities.
+
 
 ### **Event & Conference Management**
-- **FR-40:** The system shall allow receptionists to book banquet halls and business meeting rooms.
-- **FR-41:** The system shall enable hotel guests to request event hosting services.
-- **FR-42:** The system shall allow hotel administrators to manage event policies and pricing.
+- **FR-29:** The system shall allow guests to book hotel event halls for conferences and parties.
+- **FR-30:** The system shall send event reminders to attendees.
 
-### **Staff Performance Tracking**
-- **FR-43:** The system shall allow the hotel administrator to monitor employee efficiency and feedback.
-- **FR-44:** The system shall allow the casino manager to track casino staff performance.
-- **FR-45:** The system shall allow the gym manager to evaluate trainer effectiveness based on attendance.
 
-### **Inventory Management**
-- **FR-46:** The system shall allow hotel administrators to track hotel supplies and reorder stock.
-- **FR-47:** The system shall enable casino managers to manage casino chips and casino equipment.
-- **FR-48:** The system shall allow gym managers to track gym equipment usage and maintenance.
-- **FR-49:** The system shall allow restaurant staff to manage stock levels for food and beverages.
+### **Customer Feedback & Support**
+- **FR-31:** The system shall allow guests to submit complaints, feedback, and ratings for hotel services.
+- **FR-32:** The system shall automatically send customer satisfaction surveys after checkout.
+- **FR-33:** The system may allow support staff to respond to guest inquiries and complaints through the system.
+
+
