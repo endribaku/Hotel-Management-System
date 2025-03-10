@@ -1,44 +1,45 @@
 # Functional Requirements Document
 ## Hotel Management System (HMS) with Casino & Gym Facilities
 
-Version: 1.1
+Version: 1.2
 
 This document outlines the **functional requirements** for the **Hotel Management System** including its core hotel features, casino integration, and gym management.
 
 ### **Room Booking & Management**
-- **FR-01:** The system shall allow guests to search, book, modify, and cancel hotel room reservations.
-- **FR-02:** The system shall allow receptionists to check in and check out guests.
-- **FR-03:** The system shall update room availability in real-time.
-- **FR-04:** The system shall send automated booking confirmations via email/SMS to guests.
-- **FR-05:** The system shall allow admins to set seasonal pricing for rooms.
+- **FR-01:** The system shall generate a unique BookingID for every reservation (TBD).
+- **FR-02:** The system shall allow guests to search available rooms (by room type and date).
+- **FR-03:** The system shall allow guests to book a room by providing personal details (full name, contact information, payment details).
+- **FR-04:** The system shall register the reservation with the status "Confirmed" after the guest has confirmed a reservation and finalized payment.
+- **FR-04:** The system shall allow guests to modify a room reservation (by changing room type or date) before check-in.
+- **FR-05:** The system shall allow guests to cancel a reservation before check-in.
+- **FR-06:** The system shall grant the receptionist the ability to check in guests based on their bookingID (TBD on guest name) and changing the status of BookingID to "Checked In".
+- **FR-07:** The system shall grant each available room the status of "Available".
+- **FR-08:** The system shall update room availability status in real-time if a reservation has been for made it "not Available", or if the reservation has been cancelled "Available".
+- **FR-09:** The system shall allow the receptionist to check-out guests by calculating the final bill and updating the room status to "Available" and changing the Booking status to "Checked-Out".
+- **FR-10:** The system shall update the Booking status to "Cancelled" if the reservation has been cancelled.
 
 
 ### **Payments & Billing**
-- **FR-06:** The system shall accept multiple payment methods (credit/debit, cash, digital wallets).
-- **FR-07:** The system shall generate and provide automated invoices after checkout.
-- **FR-08:** The system shall calculate discounts for guests.
-- **FR-09:** The system may allow guests to view their bill details online before checkout.
+- **FR-11:** The system shall accept multiple payment methods (credit/debit, cash, digital wallets).
+- **FR-12:** The system shall generate and provide automated invoices after checkout, including the listed charges of services used in the hotel.
+- **FR-13:** The system may be able to calculate discounts for guests based on special offers.
+- **FR-14:** The system shall let guests see their bill details before checkout using their BookingID.
+
 
 
 ### **Guest Services (Including Casino & Gym as Services)**
-- **FR-10:** The system shall allow guests to request room service via the website or mobile app.
-- **FR-11:** The system shall allow guests to book transportation services through the hotel.
-- **FR-12:** The system shall allow guests to access the casino as part of hotel services (ID verification required).
-- **FR-13:** The system shall allow guests to use the gym as part of hotel services.
-- **FR-14:** The system shall add casino and gym charges to the guest’s final bill.
-- **FR-15:** The system may allow guests to book spa, massage, or wellness services.
+- **FR-11:** The system shall allow guests to access the gym by presenting their Booking ID at the gym entrance.
+- **FR-12:** The system shall allow guests to access the casino by presenting their Booking ID at the casino entrance, and the system shall verify the guest's age.
+- **FR-13:** The system shall add a fixed charge (TBD) for every gym usage, to the guest's final bill linked to their BookingID.
+- **FR-14:** The system shall add a fixed charge (TBD) for every casino usage, to the guest's final bill linked to their BookingID.
+- **FR-15:** The system shall present guests with a breakdown of their charges (e.g., room, gym, casino) at any time during their stay or at checkout.
 
 ### **Staff Management**
-- **FR-16:** The system shall allow the hotel manager to schedule shifts for staff.
-- **FR-17:** The system shall allow admins to add, remove, and modify staff roles.
-- **FR-18:** The system may track staff work hours and performance.
-- **FR-19:** The system shall allow the hotel administrator to configure gambling policies & restrictions.
-
-
-### **Security 6 Access Control**
-- **FR-20:** The system shall implement role-based access control (each user can only access relevant features).
-- **FR-21:** The system shall require users to log in with a secure authentication system.
-- **FR-22:** The system shall record all transactions and activities for auditing purposes.
+- **FR-14:** The system shall grant privileges to staff members according to their role (management, lower staff (TBD on names and their professions)). * 
+- **FR-15:** The system shall save the area of the hotel that each lower staff (e.g. receptions, housekeeping) is assigned to.
+- **FR-16:** The system may allow the hotel manager to schedule shifts for lower staff (e.g. receptions, housekeeping) in the manager's area of hotel, displaying a timetable for each staff member's schedule.
+- **FR-17:** The system shall allow the hotel administrator to modify employee privileges, by revoking or granting access levels for any type of operation of the hotel.
+- **FR-18:** The system may allow the administrator to reassign staff members to a different area of the hotel.
 
 
 ### **Financial Reports & Accounting**
